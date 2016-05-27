@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>RsMembership ZarinPal Gateway</name>
+	<author>ZarinPal development team</author>
+	<creationDate>2016</creationDate>
+	<copyright>Copyright (C) 2016 zarinpal.com. All rights reserved.</copyright>
+	<license>GPLv2.0</license>
+	<authorEmail>lab@zarinpal.com</authorEmail>
+	<authorUrl>www.zarinpal.com</authorUrl>
+	<version>1.0.0</version>
+	<description>پلاگين وب گيت درگاه پرداخت زرين پال</description>
+	<files>
+		<filename plugin="rsmembershipzarinpal">rsmembershipzarinpal.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_rsmembershipzarinpal.ini</language>
+	</languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="merchantID"  type="text" default="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" label="شناسه درگاه - MerchantID" description="شناسه درگاه پرداخت دريافتی از زرين پال" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
